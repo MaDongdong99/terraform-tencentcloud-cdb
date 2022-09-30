@@ -59,3 +59,7 @@ module "users" {
 
   ]
 }
+
+output "id" {
+  value = module.users.cdb_id_map
+}
